@@ -14,40 +14,33 @@ class FormCandidate extends Component
     use WithFileUploads;
 
     public $PIE;
-    public $EtatE;
-    public $PF;
     public $RS;
     public $cv;
-    public $motivation;
+    public $SC;
+    public $BP;
+    public $EF;
+    public $PC;
 
     protected $rules = [
-        "name" => "required",
-        "email" => "required|email",
-        "phone" => "required",
-        "domaine" => "required",
-        "cv" => "required|mimes:pdf",
-        "motivation" => "required|mimes:pdf"
+        "SC" => "required",
+        "PIE" => "required",
+        "RS" => "required",
+        "BP" => "required",
+        "EF" => "required",
+        "PC" => "required"
     ];
-
-
+    
     public function render()
     {
         return view('livewire.form-candidate');
     }
     public function submit(){
 
-        $this->validate();
-        $cvpath = $this->cv->store("uploads","public");
-        $motivpath = $this->motivation->store('uploads',"public");
-        Candidate::create([
-            "name" => $this->name,
-            "email" => $this->email ,
-            "phone" => $this->phone,
-            "domaine" => $this->domaine,
-            "cv" => $cvpath,
-            "motivation" => $motivpath
-        ]);
-        Mail::to(env("MAIL_FROM_ADDRESS"))->send(new CandidatureMail($this->name, $this->email));
+        
+     //   $cvpath = $this->cv->store("uploads","public");
+     //   $motivpath = $this->motivation->store('uploads',"public");
+
+      //  Mail::to(env("MAIL_FROM_ADDRESS"))->send(new CandidatureMail($this->name, $this->email));
 
         session()->flash("message","Candidature envoyé avec succès, nous vous informerons
         dans un bref delai");

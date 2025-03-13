@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="index.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    @livewireStyles
     <meta name="generator" content="Nicepage 7.5.2, nicepage.com">
     
     

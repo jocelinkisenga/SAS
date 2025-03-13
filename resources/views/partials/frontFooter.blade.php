@@ -104,5 +104,5 @@ industrielle, numéro 86, Commune Kampemba,Lubumbashi RDC
         </a>
       </p>
     </section>
-  
+  @livewireScripts
 </body></html>

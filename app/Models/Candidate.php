@@ -10,11 +10,11 @@ class Candidate extends Model
     use HasFactory;
 
     protected $fillable = [
-        "name",
-        "email",
-        "phone",
-        "domaine",
-        "cv",
-        "motivation"
+        "SC",
+        "BP",
+        "RS",
+        "PIE",
+        "EF",
+        "PC"
     ];
 }
