@@ -42,10 +42,18 @@ class FormCandidate extends Component
 $ef = $this->EF->store('uploads',"public");
 
 $pc = $this->PC->store('uploads',"public");
+Candidate::create([
+        "SC" => $this->PC ,
+        "PIE" => $pi,
+        "RS" =>  $rs,
+        "BP" => $bp ,
+        "EF" =>$ef,
+        "PC" => $pc
+]);
 //Mail::to(env("MAIL_FROM_ADDRESS"))->send(new CandidatureMail($this->name, $this->email));
 
-        session()->flash("message","Candidature envoyé avec succès, nous vous informerons
-        dans un bref delai");
+       // session()->flash("message","Candidature envoyé avec succès, nous vous informerons
+       // dans un bref delai");
         $this->vider();
     }
 
