@@ -43,7 +43,7 @@ $ef = $this->EF->store('uploads',"public");
 
 $pc = $this->PC->store('uploads',"public");
 Candidate::create([
-        "SC" => $this->PC ,
+        "SC" => $this->SC ,
         "PIE" => $pie,
         "RS" =>  $rs,
         "BP" => $bp ,
