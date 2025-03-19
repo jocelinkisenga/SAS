@@ -1,10 +1,5 @@
 <div>
   
-  @if (session()->has("message"))
-  <div class="alert alert-success text-success">
-    {{ session('message') }}
-    </div>
- @endif
    <section class="skrollable skrollable-between u-align-center u-clearfix u-container-align-center u-image u-shading u-section-1" id="sec-4b06" src="" data-image-width="1380" data-image-height="920">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-align-center u-text u-text-1" data-animation-name="customAnimationIn" data-animation-duration="1500">POSTULER &amp; DEVENEZ LEADER</h2>

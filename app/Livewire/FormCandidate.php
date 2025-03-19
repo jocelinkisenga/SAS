@@ -15,7 +15,6 @@ class FormCandidate extends Component
 
     public $PIE;
     public $RS;
-    public $cv;
     public $SC;
     public $BP;
     public $EF;
@@ -37,10 +36,13 @@ class FormCandidate extends Component
     public function submit(){
 
         
-     //   $cvpath = $this->cv->store("uploads","public");
-     //   $motivpath = $this->motivation->store('uploads',"public");
+     $pie= $this->PIE->store("uploads","public");
+     $rs = $this->RS->store('uploads',"public");
+     $bp = $this->BP->store('uploads',"public");
+$ef = $this->EF->store('uploads',"public");
 
-      //  Mail::to(env("MAIL_FROM_ADDRESS"))->send(new CandidatureMail($this->name, $this->email));
+$pc = $this->PC->store('uploads',"public");
+//Mail::to(env("MAIL_FROM_ADDRESS"))->send(new CandidatureMail($this->name, $this->email));
 
         session()->flash("message","Candidature envoyé avec succès, nous vous informerons
         dans un bref delai");
@@ -49,11 +51,11 @@ class FormCandidate extends Component
 
     private function vider()
     {
-         $this->name = " ";
-         $this->email = " ";
-         $this->phone = " ";
-         $this->domaine = " ";
-         $this->cv = "";
-         $this->motivation = " ";
+         $this->SC = " ";
+         $this->PIE = " ";
+         $this->RS = " ";
+         $this->BP = " ";
+         $this->EF = "";
+         $this->PC = " ";
     }
 }

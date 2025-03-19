@@ -2,13 +2,14 @@
 <html style="font-size: 16px;" lang="en"><head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Risk Assessment, Retirement Planning, Tax Strategies, Estate Planning, What people say about us, Doing The Right Things, Expert Financial Advice for Smart Investments, Savings Goals, Our Clients">
+    <meta name="keywords" content="recrutement, embauche, engagement investissement">
     <meta name="description" content="">
     <title>Home</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
 <link rel="stylesheet" href="index.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <link rel="stylesheet" href="Postuler.css" media="screen">
     @livewireStyles
     <meta name="generator" content="Nicepage 7.5.2, nicepage.com">
     
@@ -48,8 +49,8 @@
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="false" class="u-black u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-custom-color-6 u-header u-sticky u-sticky-5c67" id="header" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
-        <a href="#" class="u-image u-logo u-image-1" data-image-width="3508" data-image-height="2480">
+  <body data-home-page="/" data-home-page-title="Home" data-path-to-root="/" data-include-products="false" class="u-black u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-custom-color-6 u-header u-sticky u-sticky-5c67" id="header" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="/" class="u-image u-logo u-image-1" data-image-width="3508" data-image-height="2480">
           <img src="images/WHITELOGOLEADERSASSOCIATES.png" class="u-logo-image u-logo-image-1" data-image-width="80">
         </a>
         <nav data-position="" class="u-dropdown-icon u-menu u-menu-dropdown u-offcanvas u-menu-1">
@@ -61,7 +62,7 @@
             </a>
           </div>
           <div class="u-custom-menu u-nav-container">
-            <ul class="u-nav u-spacing-0 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-base u-text-white" href="./" style="padding: 0px 20px;">Accueil</a>
+            <ul class="u-nav u-spacing-0 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-base u-text-white" href="/" style="padding: 0px 20px;">Accueil</a>
 </li><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-base u-text-white" href="" data-page-id="68196637" style="padding: 0px 20px;">Nos services</a>
 </li><li class="u-nav-item"><a class="u-border-2 u-border-active-grey-30 u-border-grey-30 u-border-hover-grey-30 u-border-no-bottom u-border-no-left u-border-no-top u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-base u-text-white" href="" data-page-id="68196637" style="padding: 0px 20px;">Opportunites investissement</a><div class="u-nav-popup"><ul class="u-border-1 u-border-grey-30 u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-custom-color-6 u-nav-link u-text-hover-palette-3-base u-text-white" href="./#sec-a48d" data-page-id="68196637">Notre Equipe</a>
 </li><li class="u-nav-item"><a class="u-button-style u-custom-color-6 u-nav-link u-text-hover-palette-3-base u-text-white" href="" data-page-id="68196637">Equipe informatique</a>
@@ -77,14 +78,14 @@
             <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-4"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="./">Accueil</a>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-4"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/">Accueil</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="./#sec-d7fc" data-page-id="68196637" target="_blank">Nos services</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="./#block-1" data-page-id="68196637">Opportunites investissement</a><div class="u-nav-popup"><ul class="u-border-1 u-border-grey-30 u-h-spacing-20 u-nav u-unstyled u-v-spacing-10"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="./#sec-a48d" data-page-id="68196637">Notre Equipe</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="./#sec-f9fa" data-page-id="68196637">Equipe informatique</a>
 </li></ul>
 </div>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="About.html">A propos</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contact.html">Contacter</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="/Contact">Contacter</a>
 </li></ul>
               </div>
             </div>

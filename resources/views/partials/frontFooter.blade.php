@@ -1,4 +1,4 @@
- <footer class="u-align-center u-clearfix u-container-align-center u-custom-color-6 u-footer u-footer" id="footer"><div class="u-clearfix u-sheet u-sheet-1">
+     <footer class="u-align-center u-clearfix u-container-align-center u-custom-color-6 u-footer u-footer" id="footer"><div class="u-clearfix u-sheet u-sheet-1">
         <div class="custom-expanded data-layout-selected u-clearfix u-layout-wrap u-layout-wrap-1">
           <div class="u-layout">
             <div class="u-layout-row">
@@ -71,7 +71,7 @@ industrielle, numéro 86, Commune Kampemba,Lubumbashi RDC
                     </a>
                     <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/name">
                       <span class="u-icon u-social-icon u-social-twitter u-icon-5"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 1200 1200" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-90c9"></use></svg><svg class="u-svg-content" viewBox="0 0 1200 1200" x="0px" y="0px" id="svg-90c9" style="enable-background:new 0 0 1200 1200;"><g><polygon points="334.1,309.2 769.1,890.8 867.6,890.8 432.6,309.2   "></polygon><path d="M600,18C278.6,18,18,278.6,18,600s260.6,582,582,582s582-260.6,582-582S921.4,18,600,18z M745.9,937.2l-198-264.8
-        L302.7,937.2h-63l279.9-302.4l-278.2-372h214.4l182.4,243.8L864,262.8h63L666.4,544.3l293.8,392.9H745.9z"></path>
+    L302.7,937.2h-63l279.9-302.4l-278.2-372h214.4l182.4,243.8L864,262.8h63L666.4,544.3l293.8,392.9H745.9z"></path>
 </g></svg></span>
                     </a>
                     <a class="u-social-url" target="_blank" data-type="Instagram" title="Instagram" href="">
@@ -96,13 +96,6 @@ industrielle, numéro 86, Commune Kampemba,Lubumbashi RDC
         </div>
         <p class="u-align-center u-text u-text-default u-text-10"> Copyright © 2024 Leader Associates</p>
       </div></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <p class="u-text">
-        <span>This site was created with the </span>
-        <a class="u-link" href="https://nicepage.com/" target="_blank" rel="nofollow">
-          <span>Nicepage</span>
-        </a>
-      </p>
-    </section>
+
   @livewireScripts
 </body></html>
