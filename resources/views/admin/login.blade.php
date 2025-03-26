@@ -40,18 +40,18 @@
 									<form action="{{route("login")}}" method="POST">
 										@csrf
 										<div class="mb-3">
-											<label class="form-label">Email</label>
-											<input class="form-control form-control-lg" type="email" name="email" placeholder="Enter your email" />
+											<label class="form-label">Email <span class="text-danger mr-2">@error("email"){{$message}}@enderror</span></label>
+											<input class="form-control form-control-lg" type="email" name="email" placeholder="Votre email" autocomplete="off" />
 										</div>
 										<div class="mb-3">
-											<label class="form-label">mot de passe</label>
-											<input class="form-control form-control-lg" type="password" name="password" placeholder="Enter your password" />
+											<label class="form-label">mot de passe <span class="text-danger mr-2">@error("password"){{$message}} @enderror</span></label>
+											<input class="form-control form-control-lg" type="password" name="password" placeholder="Votre mot de passe" autocomplete="off"/>
 										</div>
 										<div>
-											<div class="form-check align-items-center">
+{{--								<div class="form-check align-items-center">
 												<input id="customControlInline" type="checkbox" class="form-check-input" value="remember-me" name="remember-me" checked>
-												<label class="form-check-label text-small" for="customControlInline"> se souvenir de ;oi</label>
-											</div>
+												<label class="form-check-label text-small" for="customControlInline"> se souvenir de moi</label>
+											</div> --}}
 										</div>
 										<div class="d-grid gap-2 mt-3">
 											<button type="submit" class="btn btn-lg btn-primary">Se connecter</a>

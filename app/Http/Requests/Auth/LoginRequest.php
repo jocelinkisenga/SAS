@@ -30,7 +30,7 @@ class LoginRequest extends FormRequest
     {
         return [
             'email' => ['required_without:username', 'string', 'email', 'exists:users,email'],
-            'username' => ['required_without:email', 'string', 'alpha_dash:ascii', 'exists:users,username'],
+           'username' => ['required_without:email', 'string', 'alpha_dash:ascii', 'exists:users,username'],
             'password' => ['required', 'string'],
         ];
     }
