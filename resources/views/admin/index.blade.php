@@ -116,6 +116,7 @@
 											<th class="d-none d-xl-table-cell">Responsabilite sociale</th>
 											<th>Plan d'etudes</th>
 											<th class="d-none d-md-table-cell">Etats financiers</th>
+											<th class="d-none d-md-table-cell">Plan de croissance</th>
 										</tr>
 									</thead>
 									<tbody>
