@@ -45,7 +45,7 @@
 										</div>
 										<div class="mb-3">
 											<label class="form-label">mot de passe <span class="text-danger mr-2">@error("password"){{$message}} @enderror</span></label>
-											<input class="form-control form-control-lg" type="password" name="password" placeholder="Votre mot de passe" autocomplete="off"/>
+											<input class="form-control form-control-lg" type="password" name="password" placeholder="Votre mot de passe" automplete="new-password"/>
 										</div>
 										<div>
 {{--								<div class="form-check align-items-center">
@@ -54,7 +54,7 @@
 											</div> --}}
 										</div>
 										<div class="d-grid gap-2 mt-3">
-											<button type="submit" class="btn btn-lg btn-primary">Se connecter</a>
+											<button type="submit" class="btn btn-lg btn-primary">Se connecter</button>
 										</div>
 									</form>
 								</div>
