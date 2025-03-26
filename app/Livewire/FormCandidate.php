@@ -50,7 +50,7 @@ Candidate::create([
         "EF" =>$ef,
         "PC" => $pc
 ]);
-//Mail::to(env("MAIL_FROM_ADDRESS"))->send(new CandidatureMail($this->name, $this->email));
+Mail::to(env("MAIL_FROM_ADDRESS"))->send(new CandidatureMail("nouveau message", "vous avez une candidature"));
 
        // session()->flash("message","Candidature envoyé avec succès, nous vous informerons
        // dans un bref delai");
