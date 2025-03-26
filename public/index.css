@@ -4214,3 +4214,6 @@
     grid-auto-columns: 100%;
   }
 }
+.text-danger {
+  color: red;
+}

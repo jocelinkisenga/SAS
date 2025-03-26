@@ -9,10 +9,10 @@
       <div class="u-clearfix u-sheet u-sheet-1">
         <div class="u-expanded-width u-form u-grey-5 u-radius u-form-1">
 
-          <form action="" class="u-clearfix u-form-spacing-30 u-form-vertical u-inner-form"  wire:submit="submit">
+          <form action="" class="u-clearfix u-form-spacing-30 u-form-vertical u-inner-form"  wire:submit.prevent="submit">
             <div class="u-form-group u-form-name u-form-partition-factor-2 u-form-group-1">
               <label for="name-ebb6" class="u-label">Secteur @error("SC")
-            <span class="ml-4 text-danger">le champ est obligatoire</span>
+            <span class="ml-4 text-danger" style="color:red;">le champ est obligatoire</span>
           @enderror</label>
               <input type="text" placeholder="Votre secteur"  wire:model="SC" class="u-border-none u-input u-input-rectangle u-radius u-input-1" >
             </div>
@@ -55,7 +55,4 @@
       </div>
     </section>
     
-    
-    
-
 </div>

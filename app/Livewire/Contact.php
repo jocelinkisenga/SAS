@@ -8,13 +8,13 @@ use Livewire\Component;
 
 class Contact extends Component
 {
-    public $name, $email,$subject, $msg = "";
+    public $name, $email,$subject, $message = "";
 
     protected $rules = [
         "name" => "required",
         "email" => "required|email",
         "subject" => "required",
-        "msg" => "required",
+        "message" => "required",
     ];
 
     public function render()
@@ -23,7 +23,7 @@ class Contact extends Component
     }
 
     public function submit(){
-
+     
         $this->validate();
 
         Mail::to(env("MAIL_FROM_ADDRESS"))->send(new ContactMail($this->name, $this->subject,$this->email, $this->msg));

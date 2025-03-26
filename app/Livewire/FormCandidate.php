@@ -34,7 +34,7 @@ class FormCandidate extends Component
         return view('livewire.form-candidate');
     }
     public function submit(){
-
+    $this->validate();
         
      $pie= $this->PIE->store("uploads","public");
      $rs = $this->RS->store('uploads',"public");
