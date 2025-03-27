@@ -40,7 +40,7 @@
 					</li>
 
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="pages-profile.html">
+						<a class="sidebar-link" href="{{route("admin.candidates")}}">
               <i class="align-middle" data-feather="user"></i> <span class="align-middle">Liste des candidats</span>
             </a>
 					</li>
