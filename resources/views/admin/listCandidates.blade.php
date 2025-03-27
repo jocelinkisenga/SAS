@@ -29,7 +29,7 @@
 										@foreach($candidates as $candidate)
 																				<tr>
 											<td> <i class="align-middle" data-feather="user"></i> {{$candidate->SC}}</td>
-											<td class="d-none d-xl-table-cell"> <a href=""><i class="align-middle" data-feather="eye"></i></a> </td>
+											<td class="d-none d-xl-table-cell"> <a href="{{route("preview.pdf", ['file' => str_replace('uploads/', '', $candidate->BP)])}}"><i class="align-middle" data-feather="eye"></i></a> </td>
 											<td class="d-none d-xl-table-cell"> <i class="align-middle" data-feather="eye"></i> </td>
 											<td><span class="badge bg-warning"> <i class="align-middle" data-feather="eye"></i> </span></td>
 											<td class="d-none d-md-table-cell"> <i class="align-middle" data-feather="eye"></i> </td>

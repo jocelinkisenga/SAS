@@ -8,8 +8,11 @@ use Illuminate\Http\Request;
 
 class AdminCandidateController extends Controller
 {
+    public  $file = "";
     public function index () : View {
+
         $candidates = Candidate::latest()->get();
+
         return view("admin.listcandidates", ['candidates' => $candidates]);
     }
 }

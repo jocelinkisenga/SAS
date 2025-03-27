@@ -6,6 +6,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CandidateController;
 use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\ConfirmCandidateController;
+use App\Http\Controllers\PreviewFileController;
 use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
@@ -29,6 +30,7 @@ Route::get("/about", [ContactController::class,'about'])->name("about");
 Route::middleware("auth")->group(function (){
     Route::get("dashboard", [AdminController::class,"index"])->name("admin.home");
     Route::get("adminCandidates",[AdminCandidateController::class,"index"])->name("admin.candidates");
+    Route::get("/preview/{file}",[PreviewFileController::class,"index"])->name("preview.pdf");
     Route::get("adminCompagnies",[AdminCompanController::class,"index"])->name("admin.compagnies");
     Route::get("/cv/{id}", [ConfirmCandidateController::class,"cv"])->name("cv");
     Route::get("/lm/{id}", [ConfirmCandidateController::class,"lm"])->name("lm");
